@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const board = document.getElementById("board");
     const result = document.getElementById("result");
     const cells = document.querySelectorAll(".cell");
 
@@ -39,6 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
             return "TIE";
         }
 
+        // Return null for exceptions
         return null;
     }
 
